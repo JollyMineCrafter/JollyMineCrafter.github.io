@@ -23,9 +23,3 @@ back.addEventListener('click', function (e) {
     e.preventDefault()
     console.log("GOOD NIGHT.");
 });
-
-proceed.addEventListener('click', function (e) {
-    e.preventDefault();
-    const val = user.value;
-    console.log(val);
-});
