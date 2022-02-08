@@ -9,10 +9,10 @@ if (user.value.length === max) { user.style.color = 'yellow' } else { user.style
 
 user.addEventListener('input', function (e) {
     v = user.value.toLowerCase()
-    if (v === 'gaster') {
+    if (v.trim() === 'gaster') {
         user.value = ''
         user.style.color = 'unset';
-    } else if (v.length === max) {
+    } else if (v.trim().length === max) {
         user.style.color = 'yellow';
     } else {
         user.style.color = 'white';
