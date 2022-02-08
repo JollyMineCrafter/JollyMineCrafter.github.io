@@ -1,3 +1,43 @@
 body {
-    background-color: #444;
+    margin-top: 80px;
+    background-color: black;
+    font-size: 4em;
+    font-family: "Determination Mono Web";
+    text-align: center;
+    color: white;
+}
+
+
+
+input {
+    background-color: black;
+    width: 6.5em;
+    font-size: 1em;
+    font-family: "Determination Mono Web";
+    text-align: center;
+    border: 4px solid;
+    margin-top: 12px;
+}
+
+
+form {
+    width: max-content;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+}
+
+#btns button {
+    all: unset;
+    font-size: 0.7em;
+}
+
+#btns button:hover {
+    cursor: pointer;
 }
