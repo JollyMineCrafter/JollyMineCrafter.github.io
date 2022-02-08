@@ -28,6 +28,6 @@ back.addEventListener('click', function (e) {
 
 proceed.addEventListener('click', function (e) {
     const v = user.value;
-    localStorage.setItem('name', v);
+    localStorage.setItem('name', v.trim());
     // document.cookie = 'name=v; SameSite=None; Secure'
 });
