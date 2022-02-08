@@ -1,5 +1,5 @@
 const display = document.querySelector('#name');
-const yourName = localStorage.getItem('#name');
+const yourName = localStorage.getItem('name');
 const anchor = document.querySelector('#switch');
 
 display.textContent = yourName;
