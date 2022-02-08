@@ -1,3 +1,7 @@
+if (localStorage.getItem('name') !== null) {
+    document.location.href = './easter/easter.html';
+};
+
 const user = document.querySelector('#user');
 const max = user.maxLength;
 const back = document.querySelector('#return');
@@ -10,7 +14,7 @@ user.addEventListener('input', function (e) {
     if (v.trim() === 'gaster') {
         user.value = '';
         user.style.color = 'unset';
-    } else if (v.length === max) {
+    } else if (v.trim().length === max) {
         user.style.color = 'yellow';
     } else {
         user.style.color = 'white';
