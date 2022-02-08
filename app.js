@@ -24,5 +24,6 @@ back.addEventListener('click', function (e) {
 
 proceed.addEventListener('click', function (e) {
     const v = user.value;
-    document.cookie = 'name=v; SameSite=None; Secure'
+    localStorage.setItem('name', v);
+    // document.cookie = 'name=v; SameSite=None; Secure'
 });
