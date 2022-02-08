@@ -23,7 +23,6 @@ back.addEventListener('click', function (e) {
 });
 
 proceed.addEventListener('click', function (e) {
-    e.preventDefault();
     const v = user.value;
     document.cookie = 'name=v; SameSite=None; Secure'
 });
