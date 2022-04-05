@@ -1,17 +1,18 @@
 body {
     margin-top: 80px;
-    background-color: black;
-    font-size: 4em;
+    background-image: url(./easterbg.jpg);
+    background-size: cover;
+    font-size: 4.5em;
     font-family: "Determination Mono Web";
     text-align: center;
-    color: white;
-    background-image: url(./easterbg.jpg)
-}
+    color: #222;
+    text-stroke: 2px;
+} 
 
 
 
 input {
-    background-color: black;
+    background-color: #444;
     width: 6.5em;
     font-size: 1em;
     font-family: "Determination Mono Web";
@@ -24,8 +25,11 @@ input {
 form {
     width: max-content;
     position: absolute;
+    top: 25%;
     left: 50%;
     transform: translate(-50%);
+    background-color: #ffffff66;
+    padding: 10px 20px
 }
 
 #btns {
