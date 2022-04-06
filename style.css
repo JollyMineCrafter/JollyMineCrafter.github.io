@@ -3,7 +3,7 @@ body {
     background-image: url(./easterbg.jpg);
     background-size: cover;
     font-size: 4.5em;
-    font-family: "Determination Mono Web";
+    font-family: "Determination Mono";
     text-align: center;
     color: #222;
     text-stroke: 2px;
@@ -16,7 +16,7 @@ input {
     background-color: #444;
     width: 6.5em;
     font-size: 1em;
-    font-family: "Determination Mono Web";
+    font-family: "Determination Mono";
     text-align: center;
     border: 4px solid;
     margin-top: 12px;
