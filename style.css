@@ -2,12 +2,9 @@ body {
     margin-top: 80px;
     background-image: url(./easterbg.jpg);
     background-size: cover;
-    font-size: 4.5em;
-    font-family: "Determination Mono";
+    font-size: 3.5em;
     text-align: center;
     color: #222;
-    text-stroke: 2px;
-    line-height: 0.9;
 } 
 
 
@@ -16,10 +13,10 @@ input {
     background-color: #444;
     width: 6.5em;
     font-size: 1em;
-    font-family: "Determination Mono";
     text-align: center;
     border: 4px solid;
-    margin-top: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px
 }
 
 
@@ -30,7 +27,7 @@ form {
     left: 50%;
     transform: translate(-50%);
     background-color: #ffffff66;
-    padding: 24px 36px;
+    padding: 24px 50px;
 }
 
 #btns {
@@ -41,7 +38,7 @@ form {
 
 #btns button {
     all: unset;
-    font-size: 0.7em;
+    font-size: 0.75em;
 }
 
 #btns button:hover {
