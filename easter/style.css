@@ -5,7 +5,7 @@ body {
 
 .titlearea {
 	text-align: center;
-} .titlearea h1 { font-size: 64px; padding-top: 18px; }
+} .titlearea h1 { font-size: 64px; padding-top: 18px; margin-bottom: 2px; }
 
 h2{
 	font-family: sans-serif;
