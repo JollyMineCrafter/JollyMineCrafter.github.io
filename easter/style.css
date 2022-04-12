@@ -5,12 +5,13 @@ body {
 
 .titlearea {
 	text-align: center;
+	background-color: #fff9;
 } .titlearea h1 { font-size: 64px; padding-top: 18px; margin-bottom: 2px; }
 
 h2{
 	font-family: sans-serif;
 	font-weight: normal;
-	padding-borrom: 24px;
+	padding-bottom: 24px;
 } #by {font-size: 20px;}
 
 .malasngoding-slider { 
