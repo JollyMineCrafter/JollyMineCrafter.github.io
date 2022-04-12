@@ -1,6 +1,7 @@
 body {
     background-image: url("./gambar/easterbg2.jpg");
     background-size: cover;
+    margin: 0;
 }
 
 .titlearea {
