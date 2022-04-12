@@ -7,7 +7,7 @@ body {
     color: #222;
 } 
 
-
+label {font-weight: bold;}
 
 input {
     background-color: #444;
@@ -39,8 +39,10 @@ form {
 #btns button {
     all: unset;
     font-size: 0.75em;
+    padding: 2px 16px
 }
 
 #btns button:hover {
     cursor: pointer;
-}
+    background-color: #ddd6
+} #btns button:active {background-color: #6664}
