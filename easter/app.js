@@ -1,10 +1,12 @@
-const display = document.querySelector('#name');
+const smp = document.querySelector('#smp');
+const atha = document.querySelector('#atha');
 const yourName = localStorage.getItem('name');
-const anchor = document.querySelector('#switch');
+const named = yourName.split(' ');const anchor = document.querySelector('#switch');
 
 const images = document.querySelectorAll('.slider');
 
-display.textContent = yourName;
+smp.textContent = named[0];
+atha.textContent = named[1];
 
 anchor.addEventListener('click', function () {
     localStorage.removeItem('name');
