@@ -20,7 +20,8 @@ h2{
 	height: 450px;
 	position: absolute;
 	margin-top: 80px;
-	right: 24px;
+	left: 50%;
+	transform: translate(-50%);
 	border: 10px solid #ededed;
 }
 
