@@ -29,6 +29,7 @@ h2{
 	left: 50%;
 	transform: translate(-50%);
 	border: 10px solid #ededed;
+	object-fit: cover;
 }
 
 .hidden {visibility: hidden; transition: all 2s;}
