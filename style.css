@@ -6,9 +6,7 @@ body {
     font-size: 3.5em;
     text-align: center;
     color: #222;
-} 
-
-label {font-weight: bold;}
+}
 
 input {
     background-color: #444;
