@@ -1,3 +1,7 @@
+body {
+    background-image: url("./gambar/easterbg2.jpg");
+}
+
 .titlearea {
 	text-align: center;
 } .titlearea h1 { font-size: 48px; }
